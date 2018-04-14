@@ -8,7 +8,7 @@ All kudos for the native PHP7 version send to [xBazilio](https://github.com/xBaz
 
 ## Motivation
 
-The motivation is described in https://blog.ksimka.io/a-long-journey-to-formatting-a-date-without-a-year-internationally-with-php/#header .
+The motivation is described in https://blog.ksimka.com/a-long-journey-to-formatting-a-date-without-a-year-internationally-with-php/#header .
 
 Long story short: currently (with standard `intl`) there is no way to format a date internationally without a year field (like "February 10" or "10 февраля"). `IntlDateTimePatternGenerator` fixes this issue, see examples.
 
